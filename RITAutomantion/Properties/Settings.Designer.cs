@@ -26,8 +26,6 @@ namespace RITAutomantion.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=localhost;Initial Catalog=master;User ID=sa;Password=QAZ123qaz/656565" +
-            "1/2;MultipleActiveResultSets=True")]
         public string masterConnectionString {
             get {
                 return ((string)(this["masterConnectionString"]));
